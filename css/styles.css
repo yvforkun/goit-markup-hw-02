@@ -165,13 +165,16 @@ letter-spacing: 0.02em;
     font-family: Raleway,sans-serif;
 }
 .footer-logo{
-    color: var(--CLOUD, #4d5ae5);
+    color: #4d5ae5;
     font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase; 
+}
+.span-footer-logo{
+    color: #F4F4FD;
 }
 .footer-paragraf{
     color: #F4F4FD;
@@ -180,6 +183,4 @@ letter-spacing: 0.02em;
     line-height: 1.50; /* 150% */
     letter-spacing: 0.02em;
 }
-.span-footer-logo{
-    color: var(--CLOUD, #F4F4FD);
-}
+
