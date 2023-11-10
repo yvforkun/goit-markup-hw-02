@@ -57,8 +57,14 @@ button{cursor: pointer;}
 .menu-link:active{
     color:var(--OCEAN,#404BBF);
 } 
+.menu-link:focus{
+    color: #404bbf;
+}
 .adress-link:hover{
     color:var(--OCEAN,#404BBF);
+.adress-link:focus{
+    color: #404bbf;
+}
 }
 .hero-image {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -73,7 +79,7 @@ button{cursor: pointer;}
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 .btn{
     background-color:#4D5AE5;
@@ -108,6 +114,9 @@ button{cursor: pointer;}
     background-color: #F4F4FD;
 }
 .ourteam-list{
+    background-color: #FFFFFF;
+}
+.ourteamitem{
     background-color: #FFFFFF;
 }
 .ourteam-header{
