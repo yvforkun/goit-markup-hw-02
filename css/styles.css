@@ -13,7 +13,6 @@ button{cursor: pointer;}
 }
  /* Header 1 */
 .hero-header{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 .hero-header-nav {
@@ -162,11 +161,11 @@ line-height: 1.50; /* 150% */
 letter-spacing: 0.02em;
 }
 .hero-footer{
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2e2f42;
     font-family: Raleway,sans-serif;
 }
 .footer-logo{
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--CLOUD, #4d5ae5);
     font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -175,7 +174,7 @@ letter-spacing: 0.02em;
     text-transform: uppercase; 
 }
 .footer-text{
-    color: var(--IRIS, #4D5AE5);
+    color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50; /* 150% */
