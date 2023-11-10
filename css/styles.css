@@ -62,9 +62,9 @@ button{cursor: pointer;}
 }
 .adress-link:hover{
     color:var(--OCEAN,#404BBF);
+}
 .adress-link:focus{
     color: #404bbf;
-}
 }
 .hero-image {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -116,7 +116,7 @@ button{cursor: pointer;}
 .ourteam-list{
     background-color: #FFFFFF;
 }
-.ourteamitem{
+.ourteam-item{
     background-color: #FFFFFF;
 }
 .ourteam-header{
